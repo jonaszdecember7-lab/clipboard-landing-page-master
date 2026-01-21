@@ -15,6 +15,14 @@ h3 {
     margin: 0;
 }
 
+p {
+    max-width: 650px;
+    text-align: center;
+    margin-top: 10px;
+    color: hsl(212, 7%, 55%);
+
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -26,14 +34,8 @@ h3 {
     background-size: cover;
     background-position: center;
     height: 500px;
-    max-height: 500px;
+    margin-bottom: 50px;
 }
-
-.header p {
-    max-width: 650px;
-    text-align: center;
-}
-
 
 #main-logo {
     width: auto;
@@ -73,6 +75,36 @@ button:hover {
 .MAC-DL-BUTTON {
     background-color: hsl(233, 100%, 69%);
     border-bottom: 3px solid hsla(233, 67%, 34%, 0.562);
+}
+
+.core-features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.core-feature-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+    text-align: flex-start;
+    margin: 50px;
+}
+
+
+
+.core-features-info {
+    max-width: 450px;
+    text-align: start;
+}
+
+.core-features-info p {
+    max-width: 380px;
+    text-align: start;
+    margin-bottom: 50px;
+    line-height: 1.5;
 }
 
 .attribution {
